@@ -4,9 +4,9 @@
 $HOSTNAME ="localhost";
 $USERNAME= "root";
 $PASSWORD = "";
-$DATABaSE = "signupforms";
+$DATABASE = "signupforms";
 
-$con=mysqli_connect($HOSTNAME,$USERNAME,$PASSWORD,$DATABaSE);
+$con=mysqli_connect($HOSTNAME,$USERNAME,$PASSWORD,$DATABASE);
 if(!$con){
     die(mysqli_error($con));
 }
